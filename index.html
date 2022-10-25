@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/img/logo01.png" type="image/x-icon">
+  <title>Daniel Oliveira</title>
+</head>
+
+<body>
+  <div data-glass></div>
+  <header class="cabecalho">
+    <a class="menu-hamburguer--abrir" data-btnMenu></a>
+    <nav class="lista__menu" style="display: none;" data-listaMenu>
+      <a class="lista__link" href="#sobre">Sobre</a>
+      <a class="lista__link" href="#habilidades">Habilidades</a>
+      <a class="lista__link" href="#projetos">Projetos</a>
+      <a class="lista__link" href="#publicacoes">Publicações</a>
+    </nav>
+    <div class="cabecalho__contatos">
+      <a href="https://www.linkedin.com/in/daniel-rafael-de-oliveira/" class="cabecalho__link-linkedin"></a>
+      <a href="https://github.com/danoliveiradev" class="cabecalho__link-github"></a>
+    </div>
+  </header>
+
+  <div class="sobre__apresentacao--popup" data-popUp style="display: none">
+    <a class="btn-sobre--fechar" data-btnFechar></a>
+    <p class="sobre__apresentacao">
+      Texto da apresentação aqui
+    </p>
+  </div>
+  <main class="principal">
+    <section class="sobre">
+      <h2 class="secao__titulo">Sobre</h2>
+      <img src="assets/img/avatar-mobile.png" alt="Avatar de Daniel Oliveira" class="sobre__avatar-rosto">
+      <p class="sobre__saudacao">Olá, sou</p>
+      <h1 class="sobre__nome">Daniel Oliveira</h1>
+      <p class="sobre__profissao">Desenvolvedor Front-End</p>
+      <a class="sobre__link" data-btnSobre>Sobre</a>
+      <a href="#" class="sobre__curriculo">Currículo</a>
+      <iframe width="100%" height="250px" src="https://www.youtube.com/embed/6zG3OjegMzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="habilidades">
+      <h2 class="secao__titulo">Habilidades</h2>
+      <div class="carrosel">
+        <div><img src="assets/img/html-icone.svg" alt="Símbolo do HTML5" class="carrosel__img"></div>
+        <div><img src="assets/img/css-icone.svg" alt="Símbolo do CSS3" class="carrosel__img"></div>
+        <div><img src="assets/img/javascript-icone.svg" alt="Símbolo do JavaScript" class="carrosel__img"></div>
+        <div><img src="assets/img/git-icone.svg" alt="Símbolo do Git" class="carrosel__img"></div>
+      </div>
+    </section>
+  </main>
+  <script  type="text/javascript" src="assets/js/header.js" defer></script>
+  <script  type="text/javascript" src="assets/js/main.js" defer></script>
+  <script  type="text/javascript" src="assets/js/sobre.js" defer></script>
+  <script  type="text/javascript" src="assets/js/carrosel.js" defer></script>
+</body>
+
+</html>

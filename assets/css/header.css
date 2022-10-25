@@ -1,0 +1,68 @@
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--laranja);
+  position: sticky;
+  left: 0%;
+  top: 0%;
+}
+
+.menu-hamburguer--abrir {
+  content: url(../img/menu-burger-icone.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.menu-hamburguer--fechar {
+  content: url(../img/x-preto-icone.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.lista__menu {
+  background-color: var(--laranja);
+  opacity: 90%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  height: 100%;
+  position: fixed;
+  left: 0%;
+  top: 8%;
+}
+
+.lista__link {
+  display: block;
+  margin: 2rem;
+}
+
+.cabecalho__link-linkedin {
+  content: url(../img/linkedin-icone.svg);
+  margin-right: 1rem;
+}
+
+.cabecalho__link-github {
+  content: url(../img/github-icone.svg);
+}
+
+.cabecalho__link-linkedin,
+.cabecalho__link-github {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+.menu--efeito-glass {
+  background: rgba(21, 20, 20, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}

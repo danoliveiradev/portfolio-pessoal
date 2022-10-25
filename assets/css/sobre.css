@@ -1,0 +1,77 @@
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.secao__titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--branco);
+  margin-bottom: 2rem;
+}
+
+.sobre__avatar-rosto {
+  width: 150px;
+}
+
+.sobre__saudacao {
+  font-size: 1.5rem;
+  color: var(--branco);
+  margin: 1rem 0 .5rem 0;
+}
+
+.sobre__nome {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--laranja);
+}
+
+.sobre__profissao {
+  color: var(--branco);
+  font-weight: 500;
+  margin: .5rem 0 1rem 0;
+}
+
+.sobre__link, .sobre__curriculo {
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--branco);
+  border: 4px solid var(--laranja);
+  border-radius: 8px;
+  padding: .8rem 0;
+  margin: .5rem 0;
+  width: 40%;
+}
+
+.sobre__curriculo {
+  margin-bottom: 2rem;
+}
+
+.sobre__apresentacao--popup {
+  display: block;
+  background: rgba(21, 20, 20, 0.95);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0%;
+}
+
+.btn-sobre--fechar {
+  content: url(../img/x-icone-branco.svg);
+  background-repeat: no-repeat;
+  position: sticky;
+  left: 85%;
+  top: 2%;
+}
+
+.sobre__apresentacao {
+  font-size: 1.2rem;
+  color: var(--branco);
+  margin: 2rem;
+}

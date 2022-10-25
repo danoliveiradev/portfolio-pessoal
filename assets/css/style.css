@@ -1,0 +1,19 @@
+@import url(../css/header.css);
+@import url(../css/sobre.css);
+@import url(../css/habilidades.css);
+
+:root {
+  --fundo: #37383b;
+  --laranja: #ffbd59;
+  --branco: #ffffff;
+  --preto: #00000000;
+  --vermelho: #bc1823;
+  --branco-escuro: #fbfdfe;
+
+  --fonte: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: var(--fundo);
+  font-family: var(--fonte);
+}
