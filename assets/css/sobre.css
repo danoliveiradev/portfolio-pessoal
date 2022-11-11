@@ -5,13 +5,6 @@
   margin: 2rem 0;
 }
 
-.secao__titulo {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--branco);
-  margin-bottom: 2rem;
-}
-
 .sobre__avatar-rosto {
   width: 150px;
 }
@@ -60,6 +53,7 @@
   height: 100%;
   position: fixed;
   top: 0%;
+  z-index: 4;
 }
 
 .btn-sobre--fechar {

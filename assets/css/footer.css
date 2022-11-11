@@ -1,0 +1,10 @@
+.rodape {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--branco)
+}
+
+.rodape__texto::after {
+  content: " Daniel Oliveira";
+  color: var(--laranja);
+}

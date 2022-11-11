@@ -1,0 +1,14 @@
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-scrollbar {
+  display: none !important;
+}
+
+.swiper-pagination {
+  position: static !important;
+  margin: 1rem 0;
+}
+
+.swiper-pagination-bullet {
+  background: var(--swiper-pagination-color,var(--laranja)) !important;
+}

@@ -1,0 +1,72 @@
+.cards {
+  margin: 2rem 0;
+  text-align: center
+}
+
+.card {
+  margin: 0 1.5rem;
+  border-radius: 15px;
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card__div {
+  border-radius: 0 0 15px 15px;
+}
+
+.card__descricao {
+  padding: 1rem;
+}
+
+.links__card {
+  padding: 1.5rem 1rem;
+}
+
+.card__link {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* Personalização dos cards projetos */
+.link__projeto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projeto__div {
+  background-color: var(--branco-escuro);
+}
+
+.projeto__link {
+  color: var(--vermelho);
+}
+
+/* Personalização dos cards publicações */
+.publicacoes {
+  background-color: var(--branco-escuro);
+  color: var(--branco);
+  padding: 1rem 0;
+}
+
+.publicacao__titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--preto);
+  padding-bottom: 2rem;
+}
+
+.publicacao__div {
+  background-color: var(--fundo);
+  padding-bottom: 1rem;
+}
+
+.publicacao__link {
+  display: block;
+  padding: .5rem 0;
+}

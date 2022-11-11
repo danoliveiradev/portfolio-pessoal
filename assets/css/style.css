@@ -1,12 +1,16 @@
 @import url(../css/header.css);
 @import url(../css/sobre.css);
 @import url(../css/habilidades.css);
+@import url(../css/cards.css);
+@import url(../css/carrosel.css);
+@import url(../css/footer.css);
+
 
 :root {
   --fundo: #37383b;
   --laranja: #ffbd59;
   --branco: #ffffff;
-  --preto: #00000000;
+  --preto: #000000;
   --vermelho: #bc1823;
   --branco-escuro: #fbfdfe;
 
@@ -16,4 +20,11 @@
 body {
   background-color: var(--fundo);
   font-family: var(--fonte);
+}
+
+.secao__titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--branco);
+  margin-bottom: 2rem;
 }
