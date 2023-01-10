@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="shortcut icon" href="assets/img/logo01.png" type="image/x-icon">
@@ -41,7 +40,7 @@
   </div>
 
   <main class="principal">
-    <section class="sobre">
+    <section class="sobre" id="sobre">
       <h2 class="secao__titulo">Sobre</h2>
       <img src="assets/img/avatar-mobile.png" alt="Avatar de Daniel Oliveira" class="sobre__avatar-rosto">
       <p class="sobre__saudacao">Olá, sou</p>
@@ -54,7 +53,7 @@
         allowfullscreen></iframe>
     </section>
 
-    <section class="habilidades">
+    <section class="habilidades" id="habilidades">
       <h2 class="secao__titulo">Habilidades</h2>
       <div class="hab">
         <div><img src="assets/img/html-icone.svg" alt="Símbolo do HTML5" class="hab__img"></div>
@@ -64,14 +63,24 @@
       </div>
     </section>
 
-    <section class="projetos cards">
+    <section class="projetos" id="projetos">
+
       <h2 class="secao__titulo">Projetos</h2>
-      <!-- Slider main container -->
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
+
+      <div class="container">
+        <div class="gallery_wrapper">
+          <div class="gallery">
+            <div class="card current_card">
+              <img src="assets/img/em-construcao.jpg" alt="Projeto em contrução" class="card__img">
+              <div class="card__div projeto__div">
+                <p class="card__descricao">Texto descritivo do projeto</p>
+                <div class="links__card link__projeto">
+                  <a href="#" class="card__link projeto__link">Mais</a>
+                  <a href="#" class="card__link projeto__link">Visualizar</a>
+                </div>
+              </div>
+            </div>
+
             <div class="card">
               <img src="assets/img/em-construcao.jpg" alt="Projeto em contrução" class="card__img">
               <div class="card__div projeto__div">
@@ -82,20 +91,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <img src="assets/img/em-construcao.jpg" alt="Projeto em contrução" class="card__img">
-              <div class="card__div projeto__div">
-                <p class="card__descricao">Texto descritivo do projeto</p>
-                <div class="links__card link__projeto">
-                  <a href="#" class="card__link projeto__link">Mais</a>
-                  <a href="#" class="card__link projeto__link">Visualizar</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
+
             <div class="card">
               <img src="assets/img/em-construcao.jpg" alt="Projeto em contrução" class="card__img">
               <div class="card__div projeto__div">
@@ -108,58 +104,45 @@
             </div>
           </div>
         </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
       </div>
     </section>
-    <section class="publicacoes cards">
+    <section class="publicacoes" id="publicacoes">
+
       <h2 class="publicacao__titulo">Publicações</h2>
 
-      <!-- Slider main container -->
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
+      <div class="container">
+        <div class="gallery_wrapper">
+          <div class="gallery">
             <div class="card">
               <img src="assets/img/post.jpg" alt="Projeto em contrução" class="card__img">
               <div class="card__div publicacao__div">
-                <p class="card__descricao">Texto descritivo do projeto</p>
+                <p class="card__descricao">Texto descritivo da publicação</p>
                 <a href="#" class="card__link publicacao__link">Mais</a>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
+
             <div class="card">
               <img src="assets/img/post.jpg" alt="Projeto em contrução" class="card__img">
               <div class="card__div publicacao__div">
-                <p class="card__descricao">Texto descritivo do projeto</p>
+                <p class="card__descricao">Texto descritivo da publicação</p>
                 <a href="#" class="card__link publicacao__link">Mais</a>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
+
             <div class="card">
               <img src="assets/img/post.jpg" alt="Projeto em contrução" class="card__img">
               <div class="card__div publicacao__div">
-                <p class="card__descricao">Texto descritivo do projeto</p>
+                <p class="card__descricao">Texto descritivo da publicação</p>
                 <a href="#" class="card__link publicacao__link">Mais</a>
               </div>
             </div>
           </div>
         </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
       </div>
+
     </section>
   </main>
-  
+
   <footer class="rodape">
     <p class="rodape__texto">Desenvolvido por</p>
   </footer>
@@ -167,36 +150,6 @@
   <script type="text/javascript" src="assets/js/header.js" defer></script>
   <script type="text/javascript" src="assets/js/main.js" defer></script>
   <script type="text/javascript" src="assets/js/sobre.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.swiper', {
-      // Optional parameters
-      slidesPerView: 1,
-      spaceBetween: 10,
-
-      // If we need pagination
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: '.swiper-scrollbar',
-        draggable: true,
-      },
-
-      autoplay: {
-        delay: 3000,
-      },
-    });
-  </script>
 
 </body>
 

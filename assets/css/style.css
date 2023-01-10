@@ -22,9 +22,14 @@ body {
   font-family: var(--fonte);
 }
 
+section {
+  margin: 1.5rem 0;
+}
+
 .secao__titulo {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--branco);
-  margin-bottom: 2rem;
+  margin: 2rem 0;
+  text-align: center;
 }
