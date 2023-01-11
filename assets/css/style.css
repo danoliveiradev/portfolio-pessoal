@@ -21,15 +21,16 @@ body {
   background-color: var(--fundo);
   font-family: var(--fonte);
 }
-
-section {
-  margin: 1.5rem 0;
+ 
+.posicao {
+  color: transparent;
+  margin-bottom: 4rem;
 }
 
 .secao__titulo {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--branco);
-  margin: 2rem 0;
+  margin-bottom: 2rem;
   text-align: center;
 }

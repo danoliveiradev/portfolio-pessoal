@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
   background-color: var(--laranja);
+  padding: 1rem;
   position: sticky;
   left: 0%;
   top: 0%;
-  z-index: 4
+  z-index: 4;
 }
 
 .menu-hamburguer--abrir {

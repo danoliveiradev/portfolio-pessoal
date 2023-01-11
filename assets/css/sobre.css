@@ -5,7 +5,9 @@
 }
 
 .sobre__avatar-rosto {
-  width: 150px;
+  width: 140px;
+  border-radius: 18px;
+  border: 5px solid var(--laranja);
 }
 
 .sobre__saudacao {

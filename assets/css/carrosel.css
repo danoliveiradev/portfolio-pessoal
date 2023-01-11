@@ -4,14 +4,19 @@
   margin: 1rem;
 }
 
+/* Firefox - scroolbar */
 .gallery_wrapper {
+  padding-bottom: 1rem;
   overflow-x: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 .gallery_wrapper::-webkit-scrollbar {
-  display: none;
+  height: .2rem;
+}
+
+/* Chrome, Edge, and Safari - scroolbar*/
+.gallery_wrapper::-webkit-scrollbar-thumb {
+  background-color: var(--laranja);
 }
 
 .gallery {

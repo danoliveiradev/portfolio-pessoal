@@ -14,14 +14,13 @@
 </head>
 
 <body>
-
   <div data-glass></div>
 
   <nav class="lista__menu" style="display: none;" data-listaMenu>
-    <a class="lista__link" href="#sobre">Sobre</a>
-    <a class="lista__link" href="#habilidades">Habilidades</a>
-    <a class="lista__link" href="#projetos">Projetos</a>
-    <a class="lista__link" href="#publicacoes">Publicações</a>
+    <a class="lista__link secao1" href="#sobre">Sobre</a>
+    <a class="lista__link secao2" href="#habilidades">Habilidades</a>
+    <a class="lista__link secao3" href="#projetos">Projetos</a>
+    <a class="lista__link secao4" href="#publicacoes">Publicações</a>
   </nav>
 
   <header class="cabecalho">
@@ -38,11 +37,11 @@
       Texto da apresentação aqui
     </p>
   </div>
-
   <main class="principal">
-    <section class="sobre" id="sobre">
+    <div class="posicao" id="sobre">.</div>
+    <section class="sobre">
       <h2 class="secao__titulo">Sobre</h2>
-      <img src="assets/img/avatar-mobile.png" alt="Avatar de Daniel Oliveira" class="sobre__avatar-rosto">
+      <img src="assets/img/avatar-desktop01.png" alt="Avatar de Daniel Oliveira" class="sobre__avatar-rosto">
       <p class="sobre__saudacao">Olá, sou</p>
       <h1 class="sobre__nome">Daniel Oliveira</h1>
       <p class="sobre__profissao">Desenvolvedor Front-End</p>
@@ -53,7 +52,8 @@
         allowfullscreen></iframe>
     </section>
 
-    <section class="habilidades" id="habilidades">
+    <div class="posicao" id="habilidades">.</div>
+    <section class="habilidades">
       <h2 class="secao__titulo">Habilidades</h2>
       <div class="hab">
         <div><img src="assets/img/html-icone.svg" alt="Símbolo do HTML5" class="hab__img"></div>
@@ -63,7 +63,8 @@
       </div>
     </section>
 
-    <section class="projetos" id="projetos">
+    <div class="posicao" id="projetos">.</div>
+    <section class="projetos">
 
       <h2 class="secao__titulo">Projetos</h2>
 
@@ -106,7 +107,9 @@
         </div>
       </div>
     </section>
-    <section class="publicacoes" id="publicacoes">
+
+    <div class="posicao" id="publicacoes">.</div>
+    <section class="publicacoes">
 
       <h2 class="publicacao__titulo">Publicações</h2>
 
