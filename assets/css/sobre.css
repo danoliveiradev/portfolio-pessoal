@@ -17,7 +17,7 @@
 }
 
 .animationAvatar {
-  animation: avatarMobile 2s ease;
+  animation: avatarMobile 3s ease;
 }
 
 @keyframes avatarMobile {
