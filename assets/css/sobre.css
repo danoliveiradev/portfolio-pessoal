@@ -4,10 +4,25 @@
   align-items: center;
 }
 
-.sobre__avatar-rosto {
-  width: 140px;
-  border-radius: 18px;
-  border: 5px solid var(--laranja);
+.container__img {
+  width: 130px;
+  height: 140px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.sobre__avatar {
+  width: 120px;
+  position: relative;
+}
+
+.animationAvatar {
+  animation: avatarMobile 2s ease;
+}
+
+@keyframes avatarMobile {
+  from {bottom: -100%;}
+  to {bottom: 0%;}
 }
 
 .sobre__saudacao {
@@ -20,7 +35,29 @@
   font-size: 2rem;
   font-weight: 700;
   color: var(--laranja);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 16rem;
 }
+
+.animationNome {
+  animation: escrever 3s steps(15, end);
+}
+
+@keyframes escrever {
+  from {width: 0;}
+}
+
+.sobre__nome span {
+  color: var(--branco);
+  font-weight: 400;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  to {opacity: .0;}
+}
+
 
 .sobre__profissao {
   color: var(--branco);
