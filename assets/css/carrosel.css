@@ -8,6 +8,7 @@
 .gallery_wrapper {
   padding-bottom: 1rem;
   overflow-x: auto;
+  scroll-behavior: smooth;
 }
 
 .gallery_wrapper::-webkit-scrollbar {

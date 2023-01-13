@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--laranja);
+  background-color: var(--fundo);
   padding: 1rem;
   position: sticky;
   left: 0%;
@@ -18,7 +18,7 @@
 }
 
 .menu-hamburguer--fechar {
-  content: url(../img/x-preto-icone.svg);
+  content: url(../img/x-icone-laranja.svg);
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;

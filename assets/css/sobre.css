@@ -8,6 +8,7 @@
   width: 130px;
   height: 140px;
   text-align: center;
+  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -95,11 +96,13 @@
 }
 
 .btn-sobre--fechar {
-  content: url(../img/x-icone-branco.svg);
+  content: url(../img/x-icone-laranja.svg);
   background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 2px solid var(--laranja);
   position: sticky;
-  left: 85%;
-  top: 2%;
+  left: 45%;
+  top: 85%;
 }
 
 .sobre__apresentacao {
