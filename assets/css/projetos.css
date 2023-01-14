@@ -1,0 +1,14 @@
+/* Personalização dos cards projetos */
+.link__projeto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projeto__div {
+  background-color: var(--branco-escuro);
+}
+
+.projeto__link {
+  color: var(--fundo);
+}

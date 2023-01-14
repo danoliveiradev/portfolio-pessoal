@@ -1,15 +1,8 @@
-// -------- Ativação menu hamburguer --------
+// -------- Funções menu hamburguer --------
 
 const btnMenu = document.querySelector('[data-btnMenu]');
 const menuMobile = document.querySelector('[data-listaMenu]');
 const efeitoGlass = document.querySelector('[data-glass]');
-
-// Ao clicar em um link de seção do menu hamburguer o menu é fechado
-const linkSecao1 = document.querySelector('.secao1');
-const linkSecao2 = document.querySelector('.secao2');
-const linkSecao3 = document.querySelector('.secao3');
-const linkSecao4 = document.querySelector('.secao4');
-
 
 // Evento de click menu hamburguer
 btnMenu.addEventListener('click', () => {
@@ -36,8 +29,13 @@ function removeMenuLateral() {
   sombraDesativada()
 }
 
+// Ao clicar em um link de seção do menu hamburguer o menu é fechado
+const linkSecao1 = document.querySelector('.secao1');
+const linkSecao2 = document.querySelector('.secao2');
+const linkSecao3 = document.querySelector('.secao3');
+const linkSecao4 = document.querySelector('.secao4');
 
-// Eventos de click da seção
+// Eventos de click na seção
 linkSecao1.addEventListener('click', () => {
   removeMenuLateral();
 })
@@ -51,8 +49,7 @@ linkSecao4.addEventListener('click', () => {
   removeMenuLateral();
 })
 
-// ---------- Cabecalho muda de cor ao rolar tela ----------
-
+//Cabecalho cria sombra ao rolar tela
 let rolar = document.documentElement;
 const cabecalho = document.querySelector('.cabecalho');
 
@@ -66,7 +63,7 @@ window.addEventListener('scroll', () => {
 
 // Função ativa sombra do cabeçalho
 function sombraAtiva() {
-  cabecalho.style.boxShadow = '0px 0px 8px 0px #212121';
+  cabecalho.style.boxShadow = '0px 0px 8px 0px var(--sombra)';
 }
 
 // Função desativa sombra do cabeçalho

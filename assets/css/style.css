@@ -2,6 +2,8 @@
 @import url(../css/sobre.css);
 @import url(../css/habilidades.css);
 @import url(../css/cards.css);
+@import url(../css/projetos.css);
+@import url(../css/publicacoes.css);
 @import url(../css/carrosel.css);
 @import url(../css/footer.css);
 
@@ -13,8 +15,9 @@
   --preto: #000000;
   --vermelho: #bc1823;
   --branco-escuro: #fbfdfe;
+  --sombra: #212121;
 
-  --fonte: 'Open Sans', sans-serif;
+  --fonte: 'Open San', sans-serif;
 }
 
 body {

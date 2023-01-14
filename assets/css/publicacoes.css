@@ -1,0 +1,25 @@
+/* Personalização dos cards publicações */
+.publicacoes {
+  background-color: var(--branco-escuro);
+  color: var(--branco);
+  padding: .2rem 0 1rem 0;
+}
+
+.publicacao__titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--preto);
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.publicacao__div {
+  background-color: var(--fundo);
+  padding-bottom: 1rem;
+}
+
+.publicacao__link {
+  display: block;
+  padding: .5rem 0;
+  color: var(--laranja)
+}
