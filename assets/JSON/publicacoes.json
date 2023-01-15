@@ -1,0 +1,19 @@
+[
+  {
+    "imagem": "assets/img/post.jpg",
+    "descricao": "Texto descritivo publicação 1",
+    "link": "#"
+  },
+
+  {
+    "imagem": "assets/img/post.jpg",
+    "descricao": "Texto descritivo publicação 2",
+    "link": "#"
+  },
+
+  {
+    "imagem": "assets/img/post.jpg",
+    "descricao": "Texto descritivo publicação 3",
+    "link": "#"
+  }
+]

@@ -15,11 +15,9 @@
 
 .publicacao__div {
   background-color: var(--fundo);
-  padding-bottom: 1rem;
 }
 
 .publicacao__link {
   display: block;
-  padding: .5rem 0;
   color: var(--laranja)
 }
