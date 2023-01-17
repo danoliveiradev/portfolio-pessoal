@@ -24,11 +24,13 @@
   height: 40px;
 }
 
-.lista__menu {
+.logo {
+  display: none;
+}
+
+.lista__menu-hamburguer {
   background-color: var(--laranja);
   opacity: 90%;
-  font-size: 1.5rem;
-  font-weight: 700;
   height: 100%;
   width: 80vw;
   position: fixed;
@@ -37,8 +39,14 @@
   z-index: 3;
 }
 
+.lista__menu {
+  display: none;
+}
+
 .lista__link {
   display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
   margin: 2rem;
 }
 
@@ -68,4 +76,33 @@
   height: 100%;
   position: fixed;
   z-index: 2;
+}
+
+/* Versão Tablet (768px) */
+@media screen and (min-width: 768px)   {
+
+  .cabecalho {
+    justify-content: space-around;
+  }
+  .menu-hamburguer--abrir {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+    width: 40px;
+    height: 40px;
+  }
+
+  .lista__menu {
+    display: flex;
+    margin: 0;
+  }
+
+  .lista__link {
+    color: var(--laranja);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 2rem 0 0;
+  }
 }

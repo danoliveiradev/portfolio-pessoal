@@ -9,14 +9,14 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <link rel="shortcut icon" href="assets/img/logo01.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/img/avatar-desktop01.png" type="image/x-icon">
   <title>Daniel Oliveira</title>
 </head>
 
 <body>
   <div data-glass></div>
 
-  <nav class="lista__menu" style="display: none;" data-listaMenu>
+  <nav class="lista__menu-hamburguer" style="display: none;" data-listaMenu>
     <a class="lista__link secao1" href="#sobre">Sobre</a>
     <a class="lista__link secao2" href="#habilidades">Habilidades</a>
     <a class="lista__link secao3" href="#projetos">Projetos</a>
@@ -25,6 +25,13 @@
 
   <header class="cabecalho">
     <a class="menu-hamburguer--abrir" data-btnMenu></a>
+    <img src="assets/img/Logo01.png" alt="Logo do site" class="logo">
+    <nav class="lista__menu">
+      <a class="lista__link secao1" href="#sobre">Sobre</a>
+      <a class="lista__link secao2" href="#habilidades">Habilidades</a>
+      <a class="lista__link secao3" href="#projetos">Projetos</a>
+      <a class="lista__link secao4" href="#publicacoes">Publicações</a>
+    </nav>
     <div class="cabecalho__contatos">
       <a href="https://www.linkedin.com/in/daniel-rafael-de-oliveira/" class="cabecalho__link-linkedin"></a>
       <a href="https://github.com/danoliveiradev" class="cabecalho__link-github"></a>
@@ -48,9 +55,14 @@
       <p class="sobre__saudacao">Olá, sou</p>
       <h1 class="sobre__nome animationNome">Daniel Oliveira<span>|</span></h1>
       <p class="sobre__profissao">Desenvolvedor Web</p>
-      <a class="sobre__link" data-btnSobre>Sobre</a>
-      <a href="#" class="sobre__curriculo">Currículo</a>
-      <iframe width="100%" height="250" src="https://www.youtube.com/embed/e7-UbVogqHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="btn__sobre">
+        <a class="sobre__link" data-btnSobre>Sobre</a>
+        <a href="#" class="sobre__curriculo">Currículo</a>
+      </div>
+      <iframe width="100%" height="250" src="https://www.youtube.com/embed/e7-UbVogqHs" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     </section>
 
     <div class="posicao" id="habilidades">.</div>
@@ -109,8 +121,8 @@
             </div>
           </div> -->
 
+          </div>
         </div>
-      </div>
 
     </section>
   </main>

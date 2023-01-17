@@ -5,7 +5,7 @@
 .hab {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background: linear-gradient(var(--fundo) 30%, var(--branco-escuro) 30%);
   padding-bottom: 2rem;
 }

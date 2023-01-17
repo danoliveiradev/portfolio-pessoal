@@ -22,8 +22,13 @@
 }
 
 @keyframes avatarMobile {
-  from {bottom: -100%;}
-  to {bottom: 0%;}
+  from {
+    bottom: -100%;
+  }
+
+  to {
+    bottom: 0%;
+  }
 }
 
 .sobre__saudacao {
@@ -46,7 +51,9 @@
 }
 
 @keyframes escrever {
-  from {width: 0;}
+  from {
+    width: 0;
+  }
 }
 
 .sobre__nome span {
@@ -56,9 +63,10 @@
 }
 
 @keyframes blink {
-  to {opacity: .0;}
+  to {
+    opacity: .0;
+  }
 }
-
 
 .sobre__profissao {
   color: var(--branco);
@@ -66,19 +74,25 @@
   margin: .5rem 0 1rem 0;
 }
 
-.sobre__link, .sobre__curriculo {
+.btn__sobre {
+  display: block;
+  margin: 1rem 0 2rem 0;
+}
+
+.sobre__link,
+.sobre__curriculo {
+  display: block;
   font-size: 1.2rem;
   text-align: center;
   color: var(--branco);
   border: 4px solid var(--laranja);
   border-radius: 8px;
   padding: .8rem 0;
-  margin: .5rem 0;
-  width: 40%;
+  width: 100px;
 }
 
-.sobre__curriculo {
-  margin-bottom: 2rem;
+.sobre__link {
+  margin-bottom: 1rem;
 }
 
 .sobre__apresentacao--popup {
@@ -108,4 +122,31 @@
   font-size: 1.2rem;
   color: var(--branco);
   text-align: center;
+}
+
+/* Versão Tablet (768px) */
+@media screen and (min-width: 768px) {
+
+  .btn__sobre {
+    display: flex;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .sobre__link {
+    margin: 0;
+  }
+
+  .sobre__link,
+  .sobre__curriculo {
+    display: block;
+    width: 100px;
+  }
+
+  .sobre__curriculo {
+    margin: 0 0 0 2rem;
+  }
+
+  iframe {
+    height: 350px;
+  }
 }
