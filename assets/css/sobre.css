@@ -38,11 +38,11 @@
   color: var(--laranja);
   white-space: nowrap;
   overflow: hidden;
-  width: 15rem;
+  width: auto;
 }
 
 .animationNome {
-  animation: escrever 3s steps(13, end);
+  animation: escrever 3s steps(15, end);
 }
 
 @keyframes escrever {
