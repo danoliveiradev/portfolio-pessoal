@@ -42,7 +42,7 @@
 }
 
 .animationNome {
-  animation: escrever 3s steps(15, end);
+  animation: escrever 3s steps(13, end);
 }
 
 @keyframes escrever {
