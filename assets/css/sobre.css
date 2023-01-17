@@ -38,7 +38,7 @@
   color: var(--laranja);
   white-space: nowrap;
   overflow: hidden;
-  width: auto;
+  width: 14.4rem;
 }
 
 .animationNome {
