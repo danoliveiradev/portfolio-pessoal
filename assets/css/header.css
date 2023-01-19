@@ -24,10 +24,6 @@
   height: 40px;
 }
 
-.logo {
-  display: none;
-}
-
 .lista__menu-hamburguer {
   background-color: var(--laranja);
   opacity: 90%;
@@ -43,27 +39,31 @@
   display: none;
 }
 
-.lista__link {
+.lista__link-hamb {
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
   margin: 2rem;
 }
 
-.cabecalho__link-linkedin {
-  content: url(../img/linkedin-icone.svg);
-  margin-right: 1rem;
+.cabecalho__contatos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.cabecalho__link-github {
-  content: url(../img/github-icone.svg);
+.contato__link {
+  display: flex;
+  align-items: center;
 }
 
-.cabecalho__link-linkedin,
-.cabecalho__link-github {
+.contato__logo {
   width: 40px;
   height: 40px;
-  background-repeat: no-repeat;
+}
+
+.contato__texto {
+  display: none;
 }
 
 .menu--efeito-glass {
@@ -79,19 +79,14 @@
 }
 
 /* Versão Tablet (768px) */
-@media screen and (min-width: 768px)   {
+@media screen and (min-width: 768px) {
 
   .cabecalho {
     justify-content: space-around;
   }
+
   .menu-hamburguer--abrir {
     display: none;
-  }
-
-  .logo {
-    display: none;
-    width: 40px;
-    height: 40px;
   }
 
   .lista__menu {
@@ -103,6 +98,26 @@
     color: var(--laranja);
     font-size: 1rem;
     font-weight: 400;
-    margin: 0 2rem 0 0;
+    padding: 1rem;
+  }
+}
+
+/* Versão Desktop (1024px) */
+@media screen and (min-width: 1024px) {
+
+  .contato__link:hover .contato__logo {
+    transform: rotate(360deg);
+    transition: 1s;
+  }
+
+  .contato__texto {
+    display: block;
+    color: var(--laranja);
+    padding: .5rem;
+  }
+
+  .lista__link:hover {
+    background-color: #424242;
+    border-radius: 8px;
   }
 }
