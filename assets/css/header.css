@@ -105,9 +105,8 @@
 /* Versão Desktop (1024px) */
 @media screen and (min-width: 1024px) {
 
-  .contato__link:hover .contato__logo {
-    transform: rotate(360deg);
-    transition: 1s;
+  .contato__link:hover {
+    opacity: .8;
   }
 
   .contato__texto {
@@ -117,7 +116,7 @@
   }
 
   .lista__link:hover {
-    background-color: #424242;
+    background-color: var(--bgc-secao);
     border-radius: 8px;
   }
 }

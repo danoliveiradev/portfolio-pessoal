@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+.container__img-desktop {
+  display: none;
+}
+
 .sobre__avatar {
   width: 120px;
   position: relative;
@@ -25,10 +29,15 @@
   from {
     bottom: -100%;
   }
-
   to {
     bottom: 0%;
   }
+}
+
+.sobre__dev {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .sobre__saudacao {
@@ -75,13 +84,15 @@
 }
 
 .btn__sobre {
-  display: block;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
   margin: 1rem 0 2rem 0;
 }
 
 .sobre__link,
 .sobre__curriculo {
-  display: block;
+  display: inline-block;
   font-size: 1.2rem;
   text-align: center;
   color: var(--branco);
@@ -89,10 +100,8 @@
   border-radius: 8px;
   padding: .8rem 0;
   width: 100px;
-}
-
-.sobre__link {
-  margin-bottom: 1rem;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .sobre__apresentacao--popup {
@@ -109,13 +118,17 @@
 }
 
 .btn-sobre--fechar {
-  content: url(../img/x-icone-laranja.svg);
-  background-repeat: no-repeat;
+  color: var(--branco);
+  font-size: 1.5rem;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  border: 2px solid var(--laranja);
+  border: 2px solid var(--branco);
   position: sticky;
-  left: 45%;
+  left: 50%;
   top: 85%;
+  cursor: pointer;
 }
 
 .sobre__apresentacao {
@@ -124,29 +137,102 @@
   text-align: center;
 }
 
+.sobre__video {
+  width: 100%;
+  height: 250px;
+}
+
 /* Versão Tablet (768px) */
 @media screen and (min-width: 768px) {
-
-  .btn__sobre {
-    display: flex;
-    margin: 1rem 0 2rem 0;
-  }
 
   .sobre__link {
     margin: 0;
   }
 
-  .sobre__link,
-  .sobre__curriculo {
-    display: block;
-    width: 100px;
-  }
-
-  .sobre__curriculo {
-    margin: 0 0 0 2rem;
-  }
-
-  iframe {
+  .sobre__video {
     height: 350px;
   }
+}
+
+/* Versão Desktop (1024px) */
+@media screen and (min-width: 1024px) {
+
+  .sobre {
+    display: grid;
+    grid-template:
+      'secao secao secao'
+      'avatar apresentacao video'
+      / .5fr 1fr 2fr;
+    gap: 1rem;
+    margin: 0 2rem;
+    justify-content: center;
+  }
+
+  .titulo-desktop {
+    grid-area: secao;
+  }
+
+  .container__img {
+    display: none;
+  }
+
+  .container__img-desktop {
+    display: block;
+    grid-area: avatar;
+    text-align: end;
+    max-width: 600px;
+  }
+
+  .container__img-desktop {
+    overflow: hidden;
+    width: 260px;
+  }
+
+  .sobre__avatar-desktop {
+    width: 250px;
+    height: auto;
+    position: relative;
+  }
+
+  .animationAvatar-desktop {
+    animation: avatarDesktop 3s ease
+  }
+
+  @keyframes avatarDesktop {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 0%;
+    }
+  }
+
+  .sobre__dev {
+    grid-area: apresentacao;
+    align-items: start;
+  }
+
+  .sobre__link,
+  .sobre__curriculo {
+    color: var(--laranja);
+    font-weight: 500;
+    background-color: var(--fundo);
+    border-color: var(--fundo);
+    box-shadow: 0px 0px 5px 0px var(--sombra);
+  }
+
+  .sobre__btn--efeito:hover {
+    box-shadow: 0px 0px 5px 0px var(--laranja);
+  }
+
+  .btn-sobre--fechar:hover {
+    color: var(--laranja);
+    border-color: var(--laranja);
+  }
+
+  .sobre__video {
+    grid-area: video;
+    max-width: 600px;
+  }
+
 }
