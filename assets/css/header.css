@@ -40,6 +40,7 @@
 }
 
 .lista__link-hamb {
+  color: var(--sombra);
   display: block;
   font-size: 1.5rem;
   font-weight: 700;

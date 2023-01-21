@@ -4,7 +4,6 @@
   color: var(--branco)
 }
 
-.rodape__texto::after {
-  content: " Daniel Oliveira";
+.rodape__link {
   color: var(--laranja);
 }

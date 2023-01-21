@@ -1,4 +1,9 @@
 /* Personalização dos cards projetos */
+
+.projetos {
+  padding-top: 1rem;
+}
+
 .link__projeto {
   display: flex;
   justify-content: space-between;

@@ -31,10 +31,18 @@ body {
   margin-bottom: 4rem;
 }
 
-.secao__titulo {
+.secao__titulo-branco {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--branco);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.secao__titulo-preto {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--sombra);
   margin-bottom: 2rem;
   text-align: center;
 }

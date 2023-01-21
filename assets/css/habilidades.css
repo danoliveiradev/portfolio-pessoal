@@ -1,12 +1,14 @@
 .habilidades {
+  background-color: var(--branco);
   text-align: center;
+  padding: 1rem 0;
 }
 
 .hab {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  background: linear-gradient(var(--fundo) 30%, var(--branco-escuro) 30%);
+  justify-content: center;
+  gap: 2rem;
   padding-bottom: 2rem;
 }
 

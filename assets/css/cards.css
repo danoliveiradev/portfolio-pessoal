@@ -1,6 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   flex-shrink: 0;
-  width: 300px;
+  width: 260px;
   border-radius: 15px;
   text-align: center;
 }
