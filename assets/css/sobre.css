@@ -107,6 +107,7 @@
 }
 
 .sobre__apresentacao--popup {
+  text-align: center;
   display: block;
   background: rgba(21, 20, 20, 0.95);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -122,13 +123,13 @@
 .btn-sobre--fechar {
   color: var(--branco);
   font-size: 1.5rem;
+  text-align: center;
   background-color: transparent;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   border: 2px solid var(--branco);
   position: sticky;
-  left: 50%;
   top: 85%;
   cursor: pointer;
 }
