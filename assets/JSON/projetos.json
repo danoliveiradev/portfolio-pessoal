@@ -18,5 +18,26 @@
     "descricao": "Texto descritivo do projeto 3",
     "projeto": "#",
     "site": "#"
+  },
+
+  {
+    "imagem": "assets/img/em-construcao.jpg",
+    "descricao": "Texto descritivo do projeto 4",
+    "projeto": "#",
+    "site": "#"
+  },
+
+  {
+    "imagem": "assets/img/em-construcao.jpg",
+    "descricao": "Texto descritivo do projeto 5",
+    "projeto": "#",
+    "site": "#"
+  },
+
+  {
+    "imagem": "assets/img/em-construcao.jpg",
+    "descricao": "Texto descritivo do projeto 6",
+    "projeto": "#",
+    "site": "#"
   }
 ]
