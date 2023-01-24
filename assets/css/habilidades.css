@@ -25,6 +25,13 @@
   margin-top: .5rem;
 }
 
-.hab__img:hover {
-  scale: 1.2;
+/* Versão Desktop (1024px) */
+@media screen and (min-width: 1024px) {
+
+  .hab__img {
+    transition: .5s;
+  }
+  .hab__img:hover {
+    scale: 1.2;
+  }
 }
