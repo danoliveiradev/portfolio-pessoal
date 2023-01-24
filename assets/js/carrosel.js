@@ -5,7 +5,6 @@ const btnDirPub = document.querySelector('.btn_dir-pub');
 const carroselProj = document.querySelector('.carrosel-proj');
 const carroselPub = document.querySelector('.carrosel-pub');
 
-
 // Movimenta o carrosel da secao Projetos
 btnEsqProj.addEventListener('click', () => {
   carroselProj.scrollLeft -= 200;
