@@ -48,33 +48,30 @@
 }
 
 .sobre__nome {
+  display: inline-block;
   font-size: 2rem;
   font-weight: 700;
   color: var(--laranja);
   white-space: nowrap;
   overflow: hidden;
-  width: 14.4rem;
+  max-width: 0;
+  border-right: 2px solid var(--branco);
+  padding-right: 2px;
 }
 
 .animationNome {
-  animation: escrever 3s steps(15, end);
+  animation: piscar normal infinite .8s, escrever normal 2s steps(15) both;
 }
 
 @keyframes escrever {
-  from {
-    width: 0;
+  100% {
+    max-width: 100%;
   }
 }
 
-.sobre__nome span {
-  color: var(--branco);
-  font-weight: 400;
-  animation: blink 1s infinite;
-}
-
-@keyframes blink {
-  to {
-    opacity: .0;
+@keyframes piscar {
+  100% {
+    border-right-color: transparent;
   }
 }
 
