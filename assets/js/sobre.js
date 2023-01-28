@@ -17,13 +17,13 @@ btnPopUpFechar.addEventListener('click', () => {
 //Função abrir pop-up sobre
 function abrePopUp() {
   if (popUp.style.display === 'none') {
-    popUp.style.display = 'block';
+    popUp.style.display = 'flex';
   }
 }
 
 //Função fechar pop-up sobre
 function fechaPopUp() {
-  if (popUp.style.display === 'block') {
+  if (popUp.style.display === 'flex') {
     popUp.style.display = 'none';
   }
 }
