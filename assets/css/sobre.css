@@ -153,6 +153,7 @@
   height: 40px;
   cursor: pointer;
 }
+
 /* Versão Tablet (768px) */
 @media screen and (min-width: 768px) {
 
@@ -162,6 +163,15 @@
 
   .sobre__video {
     height: 350px;
+  }
+
+  .sobre__apresentacao {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  
+  .sobre__apresentacao h2 {
+    font-size: 2rem;
   }
 }
 
@@ -225,16 +235,11 @@
 
   .btn-sobre--fechar:hover {
     color: var(--laranja);
-    border-color: var(--laranja);
   }
 
   .sobre__video {
     grid-area: video;
     max-width: 600px;
     height: 300px;
-  }
-
-  .sobre__apresentacao h2 {
-    font-size: 2rem;
   }
 }
