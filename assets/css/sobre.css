@@ -120,7 +120,7 @@
 
 
 .sobre__apresentacao {
-  font-size: 12px;
+  font-size: 1rem;
   color: var(--branco);
   text-align: justify;
   line-height: 1.2rem;
@@ -163,10 +163,6 @@
 
   .sobre__video {
     height: 350px;
-  }
-
-  .sobre__apresentacao {
-    font-size: 14px;
   }
 }
 
@@ -237,10 +233,6 @@
     grid-area: video;
     max-width: 600px;
     height: 300px;
-  }
-
-  .sobre__apresentacao {
-    font-size: 1rem;
   }
 
   .sobre__apresentacao h2 {
