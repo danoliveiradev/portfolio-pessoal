@@ -8,7 +8,7 @@
 Meu portfólio pessoal. Aqui eu me apresento como pessoa Desenvolvedora Web, meus projetos e publicações, além de mostrar um pouco dos conhecimentso que tenho adquirido.
 
 <p align="center">
-  <img src=""/>
+  <img src="IMG-20230208-WA0000.jpg"/>Captura de Tela
 </p>
 
 ## 📂 **Acesso ao projeto**
