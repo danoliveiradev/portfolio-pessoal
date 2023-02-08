@@ -13,7 +13,7 @@ Meu portfólio pessoal. Aqui eu me apresento como pessoa Desenvolvedora Web, meu
 
 ## 📂 **Acesso ao projeto**
 
-Através desses links você terá acesso a [página web]() e acesso aos [arquivos do projeto]().
+Através desses links você terá acesso a [página web](https://danoliveiradev.github.io/portfolio-pessoal/) e acesso aos [arquivos do projeto](https://github.com/danoliveiradev/portfolio-pessoal).
 
 ## 🛠 **Técnicas, tecnologias e bibliotecas utilizadas**
 
