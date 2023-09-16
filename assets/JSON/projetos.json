@@ -1,43 +1,45 @@
 [
+  
   {
     "imagem": "assets/img/em-construcao.jpg",
-    "descricao": "Texto descritivo do projeto 1",
-    "projeto": "#",
+    "descricao": "Loja de Sorveteria",
+    "projeto": "https://github.com/danoliveiradev/ice-cream-landing-page",
     "site": "#"
   },
 
   {
-    "imagem": "assets/img/em-construcao.jpg",
-    "descricao": "Texto descritivo do projeto 2",
-    "projeto": "#",
-    "site": "#"
+    "imagem": "https://github.com/danoliveiradev/portfolio-pessoal/blob/4ebcf5c0f24c106071be23b2a361745246fb4b78/IMG-20230208-WA0000.jpg?raw=true",
+    "descricao": "Portfólio Pessoal",
+    "projeto": "https://github.com/danoliveiradev/portfolio-pessoal",
+    "site": "https://danoliveiradev.github.io/portfolio-pessoal/"
   },
 
   {
-    "imagem": "assets/img/em-construcao.jpg",
-    "descricao": "Texto descritivo do projeto 3",
-    "projeto": "#",
-    "site": "#"
+    "imagem": "https://github.com/danoliveiradev/clinica-medica/raw/main/assets/capturas/Agenda%20de%20Consultas%20-%20Desktop.gif",
+    "descricao": "Projeto Clínica Médica",
+    "projeto": "https://github.com/danoliveiradev/clinica-medica",
+    "site": "https://danoliveiradev.github.io/clinica-medica/"
   },
 
   {
-    "imagem": "assets/img/em-construcao.jpg",
-    "descricao": "Texto descritivo do projeto 4",
-    "projeto": "#",
-    "site": "#"
+    "imagem": "https://github.com/danoliveiradev/optimus-tech/raw/main/assets/captura/OptimusTech.gif",
+    "descricao": "Página de Vagas de Emprego",
+    "projeto": "https://github.com/danoliveiradev/optimus-tech",
+    "site": "https://danoliveiradev.github.io/optimus-tech/"
   },
 
   {
-    "imagem": "assets/img/em-construcao.jpg",
-    "descricao": "Texto descritivo do projeto 5",
-    "projeto": "#",
-    "site": "#"
+    "imagem": "https://github.com/danoliveiradev/alura-book/raw/main/assets/captura/AluraBooks_1728px.gif",
+    "descricao": "Alura Book",
+    "projeto": "https://github.com/danoliveiradev/alura-book",
+    "site": "https://danoliveiradev.github.io/alura-book/"
   },
 
   {
-    "imagem": "assets/img/em-construcao.jpg",
-    "descricao": "Texto descritivo do projeto 6",
-    "projeto": "#",
-    "site": "#"
+    "imagem": "https://github.com/danoliveiradev/alura-plus/raw/main/assets/img/captura.png",
+    "descricao": "Alura Plus",
+    "projeto": "https://github.com/danoliveiradev/alura-plus",
+    "site": "https://danoliveiradev.github.io/alura-plus/"
   }
+
 ]
